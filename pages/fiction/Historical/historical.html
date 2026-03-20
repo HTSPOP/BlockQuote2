@@ -1,110 +1,97 @@
 ﻿<html>
-
 <head>
-    <title>Historical Books</title>
+ <title>Historical Books</title>
 
-    <style>
-        body {
-            background-image: url("../../../images/background.jpeg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            text-align: center;
-            font-family: Georgia;
-        }
+ <style>
+  table {
+     margin:auto;
+  }
 
-        .book img {
-            width: 150px;
-            height: 220px;
-            border-radius: 8px;
-        }
+  body {
+   background-image: url("../../../images/background.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   font-family: Georgia;
+  }
 
-        .book button {
-            background-color: #a0522d;
-            color: white;
-            padding: 8px 18px;
-            border: none;
-            margin: 10px;
-            cursor: pointer;
-        }
-
-        .back {
-            background-color: red;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+ </style>
 
 </head>
 
 <body>
 
-    <br>
+<div style="text-align:center; margin-top:40px;">
+  <img src="../../../images/logo.jpeg" width="120">
+</div>
 
-    <img src="../../../images/logo.jpeg" width="120">
+<h1 style="font-size:50px; text-align:center;">Historical Books</h1>
 
-    <br><br>
+<p style="font-size:20px; text-align:center; line-height:30px; margin-bottom:10px;">
+<i>Travel Back in Time with Historical Books</i><br>
+Explore powerful empires, ancient civilizations, and legendary wars.
+</p>
 
-    <h1>Historical Books</h1>
+<br>
 
-    <br><br>
+<table border="2">
+    <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Author & Price</th>
+    </tr>
 
-    <div class="book">
+    <tr>
+        <td><img src="../../../images/ancient-crown.jpg" width="150" height="150"></td>
+        <td style="text-align:center;">
+            <a href="ancient-crown.html">📘 Ancient Crown</a>
+        </td>
+        <td style="text-align:center;">By: David Haworth <br> ₹699</td>
+    </tr>
 
-        <img src="../../../images/ancient-crown.jpg">
-        <p><b>Ancient Crown</b></p>
+    <tr>
+        <td><img src="../../../images/empire-of-ash.jpg" width="150" height="150"></td>
+        <td style="text-align:center;">
+            <a href="empire-of-ash.html">📘 Empire Of Ash</a>
+        </td>
+        <td style="text-align:center;">By: Sarah J. Maas <br> ₹799</td>
+    </tr>
 
-        <a href="ancient-crown.html">
-            <button>View Book</button>
-        </a>
+    <tr>
+        <td><img src="../../../images/lost-kingdom.webp" width="150" height="150"></td>
+        <td style="text-align:center;">
+            <a href="lost-kingdom.html">📘 Lost Kingdom</a>
+        </td>
+        <td style="text-align:center;">By: Laurel Black <br> ₹649</td>
+    </tr>
 
-        <br><br>
+    <tr>
+        <td><img src="../../../images/the-golden-age.jpg" width="150" height="150"></td>
+        <td style="text-align:center;">
+            <a href="the-golden-age.html">📘 The Golden Age</a>
+        </td>
+        <td style="text-align:center;">(Add Author) <br> (Add Price)</td>
+    </tr>
 
-        <img src="../../../images/empire-of-ash.jpg">
-        <p><b>Empire Of Ash</b></p>
+    <tr>
+        <td><img src="../../../images/war-and-honor.jpg" width="150" height="150"></td>
+        <td style="text-align:center;">
+            <a href="war-and-honor.html">📘 War And Honor</a>
+        </td>
+        <td style="text-align:center;">By: David Weber <br> ₹750</td>
+    </tr>
 
-        <a href="empire-of-ash.html">
-            <button>View Book</button>
-        </a>
+</table>
 
-        <br><br>
+<br><br>
 
-        <img src="../../../images/lost-kingdom.webp">
-        <p><b>Lost Kingdom</b></p>
+<div style="text-align:center;">
+  <a style="font-size:20px; background-color:red; padding: 13px 25px; color:white;"
+  href="../fiction.html">Back</a>
+</div>
 
-        <a href="lost-kingdom.html">
-            <button>View Book</button>
-        </a>
-
-        <br><br>
-
-        <img src="../../../images/the-golden-age.jpg">
-        <p><b>The Golden Age</b></p>
-
-        <a href="the-golden-age.html">
-            <button>View Book</button>
-        </a>
-
-        <br><br>
-
-        <img src="../../../images/war-and-honor.jpg">
-        <p><b>War And Honor</b></p>
-
-        <a href="war-and-honor.html">
-            <button>View Book</button>
-        </a>
-
-    </div>
-
-    <br><br>
-
-    <a href="../fiction.html">
-        <button class="back">Back</button>
-    </a>
+<br><br>
 
 </body>
-
 </html>

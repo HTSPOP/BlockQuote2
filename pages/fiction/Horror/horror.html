@@ -1,9 +1,11 @@
 ﻿<html>
-
 <head>
 <title>Horror Books</title>
 
 <style>
+table{
+    margin:auto;
+}
 
 body{
 background-image:url("../../../images/background.jpeg");
@@ -11,97 +13,86 @@ background-size:cover;
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center;
-text-align:center;
 font-family:Georgia;
 }
-
-.book img{
-width:150px;
-height:220px;
-border-radius:8px;
-}
-
-.book button{
-background-color:#a0522d;
-color:white;
-padding:8px 18px;
-border:none;
-margin:10px;
-cursor:pointer;
-}
-
-.back{
-background-color:red;
-color:white;
-padding:10px 20px;
-border:none;
-cursor:pointer;
-}
-
 </style>
 
 </head>
 
 <body>
 
+<div style="text-align:center; margin-top:40px;">
+  <img src="../../../images/logo.jpeg" width="120">
+</div>
+
+<h1 style="font-size:50px; text-align:center;">Horror Books</h1>
+
+<p style="font-size:20px; text-align:center; line-height:30px;">
+<i>Enter the World of Fear</i><br>
+Step into darkness with chilling tales of haunted places, mysterious forces, and terrifying secrets.
+These stories will keep you awake at night.
+</p>
+
 <br>
 
-<img src="../../../images/logo.jpeg" width="120">
+<table border="2">
+
+<tr>
+<th>Image</th>
+<th>Name</th>
+<th>Author & Price</th>
+</tr>
+
+<tr>
+<td><img src="../../../images/cursed-mirror.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="cursed-mirror.html">📘 Cursed Mirror</a>
+</td>
+<td style="text-align:center;">By: Anna Sinjin <br> ₹599</td>
+</tr>
+
+<tr>
+<td><img src="../../../images/dark-forest.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="dark-forest.html">📘 Dark Forest</a>
+</td>
+<td style="text-align:center;">By: Wilma Writer <br> ₹649</td>
+</tr>
+
+<tr>
+<td><img src="../../../images/haunted-house.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="haunted-house.html">📘 Haunted House</a>
+</td>
+<td style="text-align:center;">By: Christian Brancati <br> ₹699</td>
+</tr>
+
+<tr>
+<td><img src="../../../images/night-shadows.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="night-shadows.html">📘 Night Shadows</a>
+</td>
+<td style="text-align:center;">By: Daniel Beals <br> ₹620</td>
+</tr>
+
+<tr>
+<td><img src="../../../images/silent-scream.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="silent-scream.html">📘 Silent Scream</a>
+</td>
+<td style="text-align:center;">By: D.I. Kim <br> ₹580</td>
+</tr>
+
+</table>
 
 <br><br>
 
-<h1>Horror Books</h1>
-
-<br><br>
-
-<div class="book">
-
-<img src="../../../images/cursed-mirror.jpg">
-<p><b>Cursed Mirror</b></p>
-<a href="cursed-mirror.html">
-<button>View Book</button>
-</a>
-
-<br><br>
-
-<img src="../../../images/dark-forest.jpg">
-<p><b>Dark Forest</b></p>
-<a href="dark-forest.html">
-<button>View Book</button>
-</a>
-
-<br><br>
-
-<img src="../../../images/haunted-house.jpg">
-<p><b>Haunted House</b></p>
-<a href="haunted-house.html">
-<button>View Book</button>
-</a>
-
-<br><br>
-
-<img src="../../../images/night-shadows.jpg">
-<p><b>Night Shadows</b></p>
-<a href="night-shadows.html">
-<button>View Book</button>
-</a>
-
-<br><br>
-
-<img src="../../../images/silent-scream.jpg">
-<p><b>Silent Scream</b></p>
-<a href="silent-scream.html">
-<button>View Book</button>
-</a>
-
+<div style="text-align:center;">
+<a style="font-size:20px; background-color:red; padding:13px 25px; color:white;"
+href="../fiction.html">Back</a>
 </div>
 
 <br><br>
 
-<a href="../fiction.html">
-<button class="back">Back</button>
-</a>
-
 </body>
-
 </html>

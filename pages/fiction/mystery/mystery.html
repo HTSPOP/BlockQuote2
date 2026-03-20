@@ -1,110 +1,98 @@
 ﻿<html>
-
 <head>
-    <title>Mystery Books</title>
+<title>Mystery Books</title>
 
-    <style>
-        body {
-            background-image: url("../../../images/background.jpeg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            text-align: center;
-            font-family: Georgia;
-        }
+<style>
+table{
+    margin:auto;
+}
 
-        .book img {
-            width: 150px;
-            height: 220px;
-            border-radius: 8px;
-        }
-
-        .book button {
-            background-color: #a0522d;
-            color: white;
-            padding: 8px 18px;
-            border: none;
-            margin: 10px;
-            cursor: pointer;
-        }
-
-        .back {
-            background-color: red;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+body{
+background-image:url("../../../images/background.jpeg");
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+font-family:Georgia;
+}
+</style>
 
 </head>
 
 <body>
 
-    <br>
+<div style="text-align:center; margin-top:40px;">
+  <img src="../../../images/logo.jpeg" width="120">
+</div>
 
-    <img src="../../../images/logo.jpeg" width="120">
+<h1 style="font-size:50px; text-align:center;">Mystery Books</h1>
 
-    <br><br>
+<p style="font-size:20px; text-align:center; line-height:30px;">
+<i>Solve the Unsolvable</i><br>
+Dive into thrilling mysteries filled with secrets, clues, and unexpected twists.
+Every story keeps you guessing until the very end.
+</p>
 
-    <h1>Mystery Books</h1>
+<br>
 
-    <br><br>
+<table border="2">
 
-    <div class="book">
+<tr>
+<th>Image</th>
+<th>Name</th>
+<th>Author & Price</th>
+</tr>
 
-        <img src="../../../images/dark-clue.webp">
-        <p><b>The Dark Clue</b></p>
+<tr>
+<td><img src="../../../images/dark-clue.webp" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="dark-clue.html">📘 The Dark Clue</a>
+</td>
+<td style="text-align:center;">By: James Wilson <br> ₹599</td>
+</tr>
 
-        <a href="dark-clue.html">
-            <button>View Book</button>
-        </a>
+<tr>
+<td><img src="../../../images/final-evidence.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="final-evidence.html">📘 Best Evidence</a>
+</td>
+<td style="text-align:center;">By: David S. Lifton <br> ₹649</td>
+</tr>
 
-        <br><br>
+<tr>
+<td><img src="../../../images/hidden-truth.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="hidden-truth.html">📘 Hidden Truth</a>
+</td>
+<td style="text-align:center;">By: Steven M. Green <br> ₹620</td>
+</tr>
 
-        <img src="../../../images/final-evidence.jpg">
-        <p><b>Best Evidence</b></p>
+<tr>
+<td><img src="../../../images/shadow-case.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="shadow-case.html">📘 Shadow Embers Case</a>
+</td>
+<td style="text-align:center;">By: Amanda Ballard <br> ₹670</td>
+</tr>
 
-        <a href="final-evidence.html">
-            <button>View Book</button>
-        </a>
+<tr>
+<td><img src="../../../images/silent-witness.jpg" width="150" height="150"></td>
+<td style="text-align:center;">
+<a href="silent-witness.html">📘 The Real Silent Witness</a>
+</td>
+<td style="text-align:center;">By: Wensley Clarkson <br> ₹640</td>
+</tr>
 
-        <br><br>
+</table>
 
-        <img src="../../../images/hidden-truth.jpg">
-        <p><b>Hidden Truth</b></p>
+<br><br>
 
-        <a href="hidden-truth.html">
-            <button>View Book</button>
-        </a>
+<div style="text-align:center;">
+<a style="font-size:20px; background-color:red; padding:13px 25px; color:white;"
+href="../fiction.html">Back</a>
+</div>
 
-        <br><br>
-
-        <img src="../../../images/shadow-case.jpg">
-        <p><b>Shadow Embers Case</b></p>
-
-        <a href="shadow-case.html">
-            <button>View Book</button>
-        </a>
-
-        <br><br>
-
-        <img src="../../../images/silent-witness.jpg">
-        <p><b>The Real Silent Witness</b></p>
-
-        <a href="silent-witness.html">
-            <button>View Book</button>
-        </a>
-
-    </div>
-
-    <br><br>
-
-    <a href="../fiction.html">
-        <button class="back">Back</button>
-    </a>
+<br><br>
 
 </body>
-
 </html>
