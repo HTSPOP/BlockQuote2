@@ -1,112 +1,113 @@
 ﻿<html>
+
 <head>
-<title>Checkout</title>
+    <title>Checkout</title>
 
-<style>
+    <style>
+        body {
+            background-image: url("images/background.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            text-align: center;
+            font-family: Georgia;
+            margin: 0;
+            padding: 0;
+        }
 
-body{
-background-image:url("images/background.jpeg");
-background-size:cover;
-background-repeat:no-repeat;
-background-attachment:fixed;
-background-position:center;
-text-align:center;
-font-family:Georgia;
-margin:0;
-padding:0;
-}
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
 
-.container{
-background-color:rgba(255,255,255,0.9);
-width:60%;
-margin:auto;
-padding:20px;
-border-radius:10px;
-}
+        input,
+        select {
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
 
-input, select{
-width:80%;
-padding:10px;
-margin:10px;
-border:1px solid #ccc;
-border-radius:5px;
-}
+        button {
+            background-color: #a0522d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+        }
 
-button{
-background-color:#a0522d;
-color:white;
-padding:10px 20px;
-border:none;
-cursor:pointer;
-margin:10px;
-}
+        .back {
+            background-color: red;
+        }
 
-.back{
-background-color:red;
-}
-
-h1{
-margin-top:20px;
-}
-
-</style>
+        h1 {
+            margin-top: 20px;
+        }
+    </style>
 
 </head>
 
 <body>
 
-<br>
+    <br>
 
-<img src="images/logo.jpeg" width="120">
+    <img src="images/logo.jpeg" width="120">
 
-<h1>Checkout 💳</h1>
+    <h1>Checkout 💳</h1>
 
-<br>
+    <br>
 
-<div class="container">
+    <div class="container">
 
-<h2>Billing Details</h2>
+        <h2>Billing Details</h2>
 
-<form>
+        <form>
 
-<input type="text" placeholder="Full Name" required><br>
+            <input type="text" placeholder="Full Name" required><br>
 
-<input type="email" placeholder="Email Address" required><br>
+            <input type="email" placeholder="Email Address" required><br>
 
-<input type="text" placeholder="Phone Number" required><br>
+            <input type="text" placeholder="Phone Number" required><br>
 
-<input type="text" placeholder="Address" required><br>
+            <input type="text" placeholder="Address" required><br>
 
-<input type="text" placeholder="City" required><br>
+            <input type="text" placeholder="City" required><br>
 
-<input type="text" placeholder="Pincode" required><br>
+            <input type="text" placeholder="Pincode" required><br>
 
-<br>
+            <br>
 
-<h2>Payment Method</h2>
+            <h2>Payment Method</h2>
 
-<select>
-<option>Cash on Delivery</option>
-<option>UPI</option>
-<option>Debit Card</option>
-<option>Credit Card</option>
-</select>
+            <select>
+                <option>Cash on Delivery</option>
+                <option>UPI</option>
+                <option>Debit Card</option>
+                <option>Credit Card</option>
+            </select>
 
-<br>
+            <br>
 
-<button type="submit">Place Order ✅</button>
+            <button type="submit">Place Order ✅</button>
 
-</form>
+        </form>
 
-</div>
+    </div>
 
-<br><br>
+    <br><br>
 
-<a href="cart.html">
-<button class="back">Back to Cart</button>
-</a>
+    <a href="cart.html">
+        <button class="back">Back to Cart</button>
+    </a>
 
-<br><br>
+    <br><br>
 
 </body>
+
 </html>
